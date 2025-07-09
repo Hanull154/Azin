@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="main.css">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Teachers List</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+    color: #000;
+  }
+  /* Navigation menu styles */
+  nav {
+    background-color: #007BFF;
+    overflow: hidden;
+    padding: 10px 20px;
+  }
+  nav a {
+    float: left;
+    color: #fff;
+    text-align: center;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  nav a:hover {
+    background-color: #0056b3;
+  }
+
+  /* Header styles */
+  h1 {
+    color: #007BFF;
+    text-align: center;
+    padding: 20px 0;
+    margin: 0;
+  }
+
+  /* Main content styles */
+  .teacher-list {
+    max-width: 1000px;
+    margin: 20px auto;
+  }
+
+  .teacher {
+    background-color: whitesmoke;
+    border: 2px solid #007BFF;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+  }
+
+  .teacher h2 {
+    margin-top: 0;
+    color: #007BFF;
+  }
+
+  .teacher p {
+    margin: 8px 0;
+  }
+
+  .skills {
+    list-style-type: none;
+    padding: 0;
+    margin: 8px 0;
+  }
+
+  .skills li {
+    display: inline-block;
+    background-color: #e0f0fd;
+    margin: 5px;
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-weight: bold;
+  }
+
+  /* Description styles */
+  .description {
+    margin-top: 10px;
+    background-color: #f9f9f9;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-style: italic;
+  }
+
+  /* Footer styles */
+  footer {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 15px 20px;
+    margin-top: 30px;
+  }
+</style>
+</head>
+<body>
+
+<!-- Navigation Menu -->
+<nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="login.page.html">Login</a></li>
+          <li><a href="loc.html">location</a></li>
+          <li><a href="teacher.html">Teachers</a></li>
+        </ul>
+      </nav>
+<!-- Page Title -->
+<h1>List of Teachers</h1>
+
+<!-- Teachers list -->
+<div class="teacher-list">
+  <div class="teacher">
+    <h2>John Doe</h2>
+    <p><strong>Last Name:</strong> Doe</p>
+    <p><strong>Experience:</strong> 10 years in Java programming</p>
+    <p><strong>Skills:</strong></p>
+    <ul class="skills">
+      <li>Java</li>
+      <li>Py</li>
+      <li>HTML</li>
+    </ul>
+    <div class="description">
+      John Doe is an experienced software engineer with over 10 years specializing in Java development. He excels at building robust applications and mentoring students in coding best practices.
+    </div>
+  </div>
+  <div class="teacher">
+    <h2>Jane Smith</h2>
+    <p><strong>Last Name:</strong> Smith</p>
+    <p><strong>Experience:</strong> 8 years in web development</p>
+    <p><strong>Skills:</strong></p>
+    <ul class="skills">
+      <li>Java</li>
+      <li>Py</li>
+      <li>HTML</li>
+    </ul>
+    <div class="description">
+      Jane Smith is a proficient web developer with 8 years of experience. She is passionate about creating interactive websites and helping students learn front-end technologies.
+    </div>
+  </div>
+  <div class="teacher">
+    <h2>Michael Johnson</h2>
+    <p><strong>Last Name:</strong> Johnson</p>
+    <p><strong>Experience:</strong> 12 years in software engineering</p>
+    <p><strong>Skills:</strong></p>
+    <ul class="skills">
+      <li>Java</li>
+      <li>Py</li>
+      <li>HTML</li>
+    </ul>
+    <div class="description">
+      Michael Johnson has over a decade of experience in systems and software engineering. He is dedicated to teaching practical coding skills and problem-solving.
+    </div>
+  </div>
+  <div class="teacher">
+    <h2>Emily Davis</h2>
+    <p><strong>Last Name:</strong> Davis</p>
+    <p><strong>Experience:</strong> 7 years in frontend development</p>
+    <p><strong>Skills:</strong></p>
+    <ul class="skills">
+      <li>Java</li>
+      <li>Py</li>
+      <li>HTML</li>
+    </ul>
+    <div class="description">
+      Emily Davis specializes in UI/UX and frontend development with 7 years of experience. She is committed to inspiring students in building attractive, user-friendly websites.
+    </div>
+  </div>
+  <div class="teacher">
+    <h2>David Wilson</h2>
+    <p><strong>Last Name:</strong> Wilson</p>
+    <p><strong>Experience:</strong> 9 years in backend development</p>
+    <p><strong>Skills:</strong></p>
+    <ul class="skills">
+      <li>Java</li>
+      <li>Py</li>
+      <li>HTML</li>
+    </ul>
+    <div class="description">
+      David Wilson has 9 years of experience in backend development, focusing on server-side logic, database management, and API creation.
+    </div>
+  </div>
+  <div class="teacher">
+    <h2>Linda Brown</h2>
+    <p><strong>Last Name:</strong> Brown</p>
+    <p><strong>Experience:</strong> 6 years in full-stack development</p>
+    <p><strong>Skills:</strong></p>
+    <ul class="skills">
+      <li>Java</li>
+      <li>Py</li>
+      <li>HTML</li>
+    </ul>
+    <div class="description">
+      Linda Brown is a full-stack developer with 6 years of experience, capable of handling both front-end and back-end projects efficiently.
+    </div>
+  </div>
+  <div class="teacher">
+    <h2>James Taylor</h2>
+    <p><strong>Last Name:</strong> Taylor</p>
+    <p><strong>Experience:</strong> 11 years in systems analysis</p>
+    <p><strong>Skills:</strong></p>
+    <ul class="skills">
+      <li>Java</li>
+      <li>Py</li>
+      <li>HTML</li>
+    </ul>
+    <div class="description">
+      James Taylor brings over 11 years of experience in systems analysis and design, teaching students how to approach complex software solutions.
+    </div>
+  </div>
+  <div class="teacher">
+    <h2>Sarah Miller</h2>
+    <p><strong>Last Name:</strong> Miller</p>
+    <p><strong>Experience:</strong> 5 years in UI/UX design</p>
+    <p><strong>Skills:</strong></p>
+    <ul class="skills">
+      <li>Java</li>
+      <li>Py</li>
+      <li>HTML</li>
+    </ul>
+    <div class="description">
+      Sarah Miller specializes in user interface and experience design with 5 years of enhancing the usability of web applications.
+    </div>
+  </div>
+  <div class="teacher">
+    <h2>Robert Anderson</h2>
+    <p><strong>Last Name:</strong> Anderson</p>
+    <p><strong>Experience:</strong> 14 years in software development</p>
+    <p><strong>Skills:</strong></p>
+    <ul class="skills">
+      <li>Java</li>
+      <li>Py</li>
+      <li>HTML</li>
+    </ul>
+    <div class="description">
+      Robert Anderson has extensive experience in full-cycle software development, mentor in advanced programming topics.
+    </div>
+  </div>
+  <div class="teacher">
+    <h2>Lisa Thomas</h2>
+    <p><strong>Last Name:</strong> Thomas</p>
+    <p><strong>Experience:</strong> 9 years in network security</p>
+    <p><strong>Skills:</strong></p>
+    <ul class="skills">
+      <li>Java</li>
+      <li>Py</li>
+      <li>HTML</li>
+    </ul>
+    <div class="description">
+      Lisa Thomas focuses on cybersecurity and network security, guiding students through security protocols and practices.
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer>
+  &copy; 2025 Educational Site. All rights reserved.
+</footer>
+<style>
+  /* Keep your existing styles */
+  /* Navigation menu styles */
+  nav {
+    background-color: #007BFF;
+  }
+  nav ul {
+    display: flex;
+    flex-wrap: nowrap; /* Keep items in one row unless small screen */
+    justify-content: center;
+    padding: 10px 20px;
+    margin: 0;
+  }
+  nav li {
+    /* Remove float, as flex handles layout */
+    margin: 0 10px;
+  }
+  nav a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  nav a:hover {
+    background-color: #0056b3;
+  }
+
+  /* Responsive adjustments for menu on smaller screens */
+  @media (max-width: 600px) {
+    nav ul {
+      flex-direction: column; /* Stack items vertically on small screens */
+      align-items: center; /* Center the menu items */
+    }
+    nav li {
+      margin: 5px 0; /* Reduce spacing for vertical layout */
+    }
+    /* Optional: Add a toggle button for menu (not required here) */
+  }
+</style>
+
+</body>
+</html>
